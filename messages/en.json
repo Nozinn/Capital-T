@@ -1,6 +1,11 @@
 {
-  "HomePage": {
-    "title": "Welcome to the multilingual app",
-    "selectLanguage": "Select your language"
-  }
+	"HomePage": {
+		"title": "Welcome to the multilingual app",
+		"li1": "About us",
+		"li2": "Coverage map",
+		"li3": "Infrastructure",
+		"li4": "Partners",
+		"li5": "News",
+		"li6": "Careers"
+	}
 }

@@ -1,5 +1,6 @@
 import LanguageSwitcher from '@/LanguageSwitcher';
 import { getTranslations } from 'next-intl/server';
+import Image from 'next/image'
 
 
 export default async function HomePage({ params }: { params: { lang: string } }) {
@@ -7,12 +8,14 @@ export default async function HomePage({ params }: { params: { lang: string } })
 
   return (
     <div className="p-6">
-      <h1 >{t('title')}</h1>
+      
 
-      <label htmlFor="lang" className="block mt-4 mb-2 text-sm font-medium">
-     
-      </label>
-      <LanguageSwitcher currentLang={params.lang} />
+      
+      
+      <header>
+        
+        {/* <Image src='/images/unsplash_nbRgZltoOck.png' width={100} height={100} alt='picture' /> */}
+      </header>
     </div>
   );
 }
